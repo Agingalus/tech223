@@ -1,5 +1,6 @@
 #!/bin/bash
 SPACE="" 
+clear
 for(( i = 0; i<25; i++))
 do
 	echo "$SPACE __________"
