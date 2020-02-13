@@ -9,7 +9,6 @@ do
 	((HIGHT++))
 	echo -e "_____________"
 	tput cup $HIGHT $WIDTH
-	((WIDTH))
 	((HIGHT++))
 	
 	echo -e "|           |"
