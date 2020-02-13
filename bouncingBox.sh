@@ -6,7 +6,6 @@ for(( i=0; i <25; i++ ))
 do
 	clear
 	tput cup $HIGHT $WIDTH
-	((WIDTH))
 	((HIGHT++))
 	echo -e "_____________"
 	tput cup $HIGHT $WIDTH
@@ -15,7 +14,6 @@ do
 	
 	echo -e "|           |"
 	tput cup $HIGHT $WIDTH
-	((WIDTH))
 	((HIGHT++))
 	echo -e "|           |"
 	tput cup $HIGHT $WIDTH
@@ -29,16 +27,13 @@ for(( i=0; i <23; i++ ))
 do
 	clear
 	tput cup $HIGHT $WIDTH
-	((WIDTH))
 	((HIGHT--))
 	echo -e "|___________|"
 	tput cup $HIGHT $WIDTH
-	((WIDTH))
 	((HIGHT--))
 	
 	echo -e "|           |"
 	tput cup $HIGHT $WIDTH
-	((WIDTH))
 	((HIGHT--))
 	echo -e "|           |"
 	tput cup $HIGHT $WIDTH
