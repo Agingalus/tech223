@@ -1,5 +1,6 @@
 #!/bin/bash
 SPACE=" ";
+clear
 for(( i=0; i<18; i++))
 do
 	echo -e "\n\n"
