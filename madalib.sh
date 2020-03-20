@@ -1,14 +1,23 @@
 #!/bin/bash
 myvar=[]
 read -a myvar
-#read -p -a "what is you favorte word  " myvar
-echo "your faveorte word is $(myvar[0]) and $myvar[1]" 
+read -p "what is you favorte word  " myvar
+#echo "your faveorte word is $(myvar[0]) and $myvar[1]" 
 echo $myvar
 
 adj1="";
 adj2="";
 adj3="";
 adj4="";
+plNoun1="";
+name="";
+candy="";
+randPotion="";
+bodyPart="";
+name2="";
+holyBook="";
+noun2="";
+plAnimal="";
 
 echo "It was the dayes of the virus of 2020 when all other $adj1 people where
 		cowering in there $plNoun1. These days where some of the most $adj2 times in history
